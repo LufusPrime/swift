@@ -21,3 +21,10 @@ print(count)
 count /= 1.25
 print(count)
 // declare variable use -> var year: Int 
+var age: Int = 24
+print("I am \(age) years old.") // this is the string interpolation
+
+var tempf: Double = 56
+var tempc: Double 
+tempc = (tempf-32)/1.8
+print ("The temp is \(tempc) degrees Celsius.")

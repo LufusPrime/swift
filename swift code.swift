@@ -51,3 +51,12 @@ if learningToCode {
 } else {
     print("remember to improve!!")
 }
+
+/*
+4 < 5        // true 
+0.5 > 0.1    // true
+3.5 <= 3.0   // false
+12 >= 15     // false
+"A" == "A"   // true 
+"B" != "b"   // true
+*/

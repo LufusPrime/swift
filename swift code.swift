@@ -60,3 +60,24 @@ if learningToCode {
 "A" == "A"   // true 
 "B" != "b"   // true
 */
+
+/* country abbreviation
+spanish:  SP
+korean:  KR
+Taiwan: TW
+Japanese:  JP
+*/
+
+var abbreviation:String = "TW"
+
+if abbreviation == "TW"{
+  print("Taiwan")
+}else if abbreviation == "KR"{
+  print("Korean")
+}else if abbreviation == "SP"{
+  print("Spanish")
+}else if abbreviation == "JP"{
+  print("Japan")
+}else{
+  print("Abbreviation not found")
+}

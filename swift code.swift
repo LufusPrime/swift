@@ -81,3 +81,27 @@ if abbreviation == "TW"{
 }else{
   print("Abbreviation not found")
 }
+
+//ternary operation
+
+var LiChung = true
+LiChung ? print("this is provider") : print("this is stranger")
+
+//switch case syntax
+
+var secretIdentity = "Tony Stark"
+var superheroName: String 
+
+switch secretIdentity {
+  case "Tony Stark":
+    superheroName = "Iron Man"
+  case "Natasha Romanoff":
+    superheroName = "Black Widow"
+  case "Prince T'Challa":
+    superheroName = "Black Panther"
+  case "Thor":
+    superheroName = "Thor"
+  default:
+    superheroName = "Unknown"
+}
+print(superheroName)

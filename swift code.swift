@@ -69,7 +69,7 @@ Japanese:  JP
 */
 
 var abbreviation:String = "TW"
-
+//else if conditions
 if abbreviation == "TW"{
   print("Taiwan")
 }else if abbreviation == "KR"{
@@ -92,6 +92,7 @@ LiChung ? print("this is provider") : print("this is stranger")
 var secretIdentity = "Tony Stark"
 var superheroName: String 
 
+//switch 
 switch secretIdentity {
   case "Tony Stark":
     superheroName = "Iron Man"
@@ -105,3 +106,28 @@ switch secretIdentity {
     superheroName = "Unknown"
 }
 print(superheroName)
+
+
+
+//advanced switch case 
+var episode = 8
+var villain: String 
+var MC: String
+
+
+switch episode {
+  case 1...3:
+    villain = "Emperor Palpatine"
+    MC = "Obi Wang"
+  case 4...6:
+    villain = "Darth Vader"
+    MC = "Luke skywalker"
+  case 7...9:
+    villain = "Kylo Ren"
+    MC = "Ray"
+  default:
+    villain = ""
+    MC = ""
+}
+print("The villain is " + villain + ".")
+print("The main character is \(MC).")

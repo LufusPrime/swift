@@ -131,3 +131,27 @@ switch episode {
 }
 print("The villain is " + villain + ".")
 print("The main character is \(MC).")
+
+//Compound Cases
+var planet = "Earth" 
+
+switch planet{
+  case "Earth", "Mercury", "Venus", "Mars":
+    print("Terrestrial planet")
+  case "Saturn", "Jupiter", "Uranus", "Neptune":
+    print("Jovian planet")
+  default :
+    print("Unknown planet")
+}
+
+//switch where clause
+var diceNumber = Int.random(in: 1...6)
+
+switch diceNumber{
+  case let x where x >= 4:
+    print("\(diceNumber) is large.")
+  case let x where x <= 3:
+    print("\(diceNumber) is small.")
+  default:
+    print("WTF")
+}
